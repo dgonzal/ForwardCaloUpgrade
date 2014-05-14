@@ -149,6 +149,7 @@
 /run/setCutForRegion Brass 0.5 mm
 ##/run/setCutForRegion Lead 0.1 mm
 /run/setCutForRegion PbWO 0.1 mm
+/run/dumpRegion
 #
 # Set primary particle position (x, y, z) [cm]:
 #----------------------------------------------
@@ -156,8 +157,8 @@
 # x =  -81.8 cm only Ecal+Hcal+dead materials between will be simulated
 # x = -110.0 cm SE+Ecal+Hcal+dead materials (full setup) will be simulated
 #
-/gun/setVxPosition  -110.0 0.0 0.0 cm
-##/gun/setVxPosition  -81.8 0.0 0.0 cm
+#/gun/setVxPosition  -110.0 0.0 0.0 cm
+/gun/setVxPosition  -81.8 0.0 0.0 cm
 #
 # Add primary vertex smearing in transverse (Y vs Z) plane:
 #-----------------------------------------------------------
@@ -171,19 +172,22 @@
 #-------------------------------------------------------------
 # direction needs not to be a unit vector: px != 0 || py != 0 || pz != 0
 #
-/gun/direction  1.00 0.00 0.00
+/gun/direction  0.00 0.00 1.00
 #
 # Set type of particle:
 #----------------------
 #
-##/gun/particle pi-
+/gun/particle pi-
 ##/gun/particle e-
-/gun/particle mu-
+##/gun/particle mu-
 # 
+
+
+
 # Set energy of primary particle:
 #--------------------------------
 #
-/gun/energy 50. GeV
+/gun/energy 20. GeV
 # 
 /run/initialize
 #
@@ -194,7 +198,7 @@
 # Set number of simulated events:
 #--------------------------------
 #
-/run/beamOn 10
+/run/beamOn 100
 #
 # Save the seed of this current run:
 #-----------------------------------
