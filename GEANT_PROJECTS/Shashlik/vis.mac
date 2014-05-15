@@ -22,6 +22,7 @@
 #
 # Use this open statement instead for OpenGL in immediate mode.
 /vis/open OGLIX
+#/vis/open OGLSX 
 #
 # Use this open statement instead to get a HepRep version 1 file
 # suitable for viewing in WIRED.
@@ -32,6 +33,7 @@
 #/vis/open HepRepXML
 #
 # Output an empty detector
+/vis/viewer/set/viewpointThetaPhi 70 20
 /vis/viewer/flush
 #
 # Draw trajectories at end of event, showing trajectory points as
@@ -78,7 +80,23 @@
 /vis/scene/endOfEventAction accumulate 10
 #
 # At end of each run, an automatic flush causes graphical output.
-#/run/beamOn 1
+
+/gun/particle pi-
+/gun/direction  0.00 0.00 1.00
+/gun/energy 50. GeV
+
+/run/beamOn 1
+
+/vis/ogl/set/printMode pixmap
+
+/vis/ogl/set/printFilename test
+
+# set print size larger than screen
+#3/vis/ogl/set/printSize 2000 2000
+
+# print
+/vis/ogl/printEPS
+
 # When you exit Geant4, you will find a file called scene-0.heprep.zip.
 # Unzipping this will give you three separate HepRep files suitable for
 # viewing in WIRED.
