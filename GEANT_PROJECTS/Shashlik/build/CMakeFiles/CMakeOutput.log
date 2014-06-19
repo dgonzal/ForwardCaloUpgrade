@@ -1,0 +1,251 @@
+The system is: Linux - 2.6.32-431.11.2.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc
+COLLECT_LTO_WRAPPER=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux-gnu
+Configured with: ../configure --prefix=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --disable-multilib --disable-nls --with-zlib=no --enable-languages=c,c++,fortran --enable-gold=yes --enable-ld=default --enable-lto --with-gmp=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpfr=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpc=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-isl=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-cloog=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --enable-checking=release --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --enable-libstdcxx-time=rt --enable-shared CC='gcc -fPIC' CXX='c++ -fPIC' CPP=cpp CXXCPP='c++ -E'
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/bin/
+LIBRARY_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z common-page-size=4096 -z max-page-size=4096 -o cmTryCompileExec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --disable-multilib --disable-nls --with-zlib=no --enable-languages=c,c++,fortran --enable-gold=yes --enable-ld=default --enable-lto --with-gmp=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpfr=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpc=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-isl=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-cloog=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --enable-checking=release --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --enable-libstdcxx-time=rt --enable-shared CC='gcc -fPIC' CXX='c++ -fPIC' CPP=cpp CXXCPP='c++ -E']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z common-page-size=4096 -z max-page-size=4096 -o cmTryCompileExec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zcommon-page-size=4096] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/x86_64-redhat-linux-gnu/lib]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib]
+  implicit libs: [c]
+  implicit dirs: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/x86_64-redhat-linux-gnu/lib;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++
+COLLECT_LTO_WRAPPER=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux-gnu
+Configured with: ../configure --prefix=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --disable-multilib --disable-nls --with-zlib=no --enable-languages=c,c++,fortran --enable-gold=yes --enable-ld=default --enable-lto --with-gmp=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpfr=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpc=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-isl=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-cloog=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --enable-checking=release --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --enable-libstdcxx-time=rt --enable-shared CC='gcc -fPIC' CXX='c++ -fPIC' CPP=cpp CXXCPP='c++ -E'
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/bin/
+LIBRARY_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z common-page-size=4096 -z max-page-size=4096 -o cmTryCompileExec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_0_pre9/external/slc6_amd64_gcc481/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /afs/desy.de/user/g/gonvaq/xxl-af-cms/ForwardCaloUpgrade/GEANT_PROJECTS/Shashlik/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --disable-multilib --disable-nls --with-zlib=no --enable-languages=c,c++,fortran --enable-gold=yes --enable-ld=default --enable-lto --with-gmp=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpfr=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-mpc=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-isl=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --with-cloog=/build/davidlt/build-BOOTSTRAP_slc6_amd64_gcc481/b/tmp/BUILDROOT/e55a93caf1185342d60da645a6c0626d/opt/cmssw/slc6_amd64_gcc481/external/gcc/4.8.1 --enable-checking=release --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --enable-libstdcxx-time=rt --enable-shared CC='gcc -fPIC' CXX='c++ -fPIC' CPP=cpp CXXCPP='c++ -E']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib/:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z common-page-size=4096 -z max-page-size=4096 -o cmTryCompileExec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib -L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../libexec/gcc/x86_64-redhat-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zcommon-page-size=4096] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib]
+    arg [-L/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..] ==> dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../lib64] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../../../x86_64-redhat-linux-gnu/lib] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/x86_64-redhat-linux-gnu/lib]
+  collapse dir [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.8.1/../../..] ==> [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc/x86_64-redhat-linux-gnu/4.8.1;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib/gcc;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/x86_64-redhat-linux-gnu/lib;/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib]
+
+
